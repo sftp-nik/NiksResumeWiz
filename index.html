@@ -1,0 +1,164 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
+    <style>
+        body {
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+        body {
+            margin: 0;
+            padding: 0;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header, nav, section, footer {
+            background-color: #111;
+            color: #00ff00;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        nav a.active {
+            border-bottom: 2px solid #00ff00; /* Highlight with a bottom border */
+        }
+        footer {
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+        .home {
+            position: relative;
+            height: 100vh;
+            background: url('hacker_background.jpg') center center fixed;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Adjust the last value for opacity */
+        }
+        .home-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .home h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .home p {
+            font-size: 1.5em;
+        }
+        * {
+    box-sizing: border-box;
+}
+.button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #111;
+        
+        
+        }
+html, body {
+    height: 100%;
+}
+.parent-element {
+  text-align: center;
+}
+
+
+.redirect-button{
+  display: inline-block;
+  background-color: #111; /* Green */
+  border:  #000000;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px; /* Rounded corners */
+  cursor: pointer; /* Indicate interactivity */
+  outline: 2px solid #00ff00;
+}
+/* Hover effect for visual feedback */
+.redirect-button:hover, .redirect-button:hover button {
+    background-color: #00ff00;
+}
+h2
+{font-size: 200%;}
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="home">
+        <div class="overlay"></div>
+        <div class="home-content">
+            <h1>Welcome to my Resume</h1>
+            <p>Explore my skills and achievements in the world of IT security</p>
+        </div>
+    </div>
+    <header>
+        <h1>Your Name</h1>
+        <p>Ethical Hacker | Penetration Tester | Developer</p>
+    </header>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="technical_skills.html">Technical Skills</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>IT professional with a proactive mindset and a passion for problem-solving, holding a CCNA certification that demonstrates my strong foundation in networking. I possess in-depth knowledge of routing protocols (RIP, OSPF, EIGRP, BGP), versatile switching technologies (VLANs, STP, Port Security), and comprehensive network security concepts (fire walls, Intrusion Detection/ Prevention Systems, VPNs).
+
+            My expertise extends beyond networking to Red Hat Enterprise Linux, where I hold both RHCSA and RHCE certifications. This enables me to design, implement, and automate robust Linux server infrastructures using Ansible and other leading tools.
+            
+            Cybersecurity ranks high among my priorities, as evident by my CEH, W APT, SOC, and CHFI certifications. I actively engage in penetration testing, vulnerability assessments, and incident response activities, applying my knowledge of ethical hacking methodologies and exploitation techniques to fortify organizational security posture.
+            
+            Beyond the professional realm, I excel in diverse programming languages like Python, Java, C/C++, and Android development. This gives me the flexibility to tackle a wide range of technical challenges and develop creative solutions. My troubleshooting skills are well-honed, allowing me to dissect complex technical issues and implement effective resolutions.
+            
+            In short, I am a valuable asset to any organization seeking a highly skilled and versatile IT professional with a passion for security and innovation.</p>
+            
+
+
+
+    </section>
+    <div class="button-container">
+        <div class="button">
+<button type="button" class="redirect-button" onclick="window.location.href = 'technical_skills.html'">Next</button>
+        </div></div>
+    <footer>
+        <p>&copy; 2024 Your Name <span style="color: #ff0000;">&hearts;</span></p>
+    </footer>
+</body>
+</html>
