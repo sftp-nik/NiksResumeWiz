@@ -1,0 +1,133 @@
+<!-- achievements.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Kulkarni - Achievements</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            background-color: #111;
+            color: #00ff00;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        .achievements-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        
+        
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        
+        
+        }
+        .achievement {
+            text-align: center; /* Center the text */
+            margin-bottom: 20px;
+            max-width: 400px;
+        }
+        h2{
+            font-size: 200%;
+            text-align: center;
+            border: #00ff00;
+        }
+        .achievement h3 {
+            color: #00ff00;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+        }
+        .redirect-button{
+  display: inline-block;
+  background-color: #111; /* Green */
+  border:  #000000;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px; /* Rounded corners */
+  cursor: pointer; /* Indicate interactivity */
+  outline: 2px solid #00ff00;
+}
+/* Hover effect for visual feedback */
+.redirect-button:hover, .redirect-button:hover button {
+    background-color: #00ff00;
+}
+        /* Add a class to highlight the current tab */
+        nav a.current-tab {
+            border-bottom: 2px solid #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nikhil Kulkarni</h1>
+        <p>Ethical Hacker | Penetration Tester | Developer</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="technical_skills.html">Technical Skills</a>
+        <a href="education.html">Education</a>
+        <a href="achievements.html" class="current-tab">Achievements</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="achievements-container">
+            <div class="achievement">
+                <h3>India’s First Hybrid Rocker Launch</h3>
+                <p>Worked on the second stage rocket ignition software and Pico satellites technology.</p>
+                <ul>
+                    <li>Date: 19th Feb. 2023</li>
+                </ul>
+            </div>
+            <!-- Add more achievements as needed -->
+        </div>
+        </section>
+        <section>
+            <div class="button-container">
+                <div class="button">
+        <button type="button" class="redirect-button" onclick="window.location.href = 'contact.html'">Next</button>
+                </div></div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nikhil Kulkarni <span style="color: #ff0000;">&hearts;</span></p>
+    </footer>
+</body>
+</html>
