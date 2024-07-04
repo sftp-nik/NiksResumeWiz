@@ -18,6 +18,5 @@ Steps:
 7) And Preview you website
 8) ... here you go, your website is done
 
-
 Here is my website
 https://thenikhilkulkarnicv.000webhostapp.com/
