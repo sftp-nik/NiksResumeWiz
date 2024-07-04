@@ -1,4 +1,6 @@
-# Resume Website
+# NiksResumeWiz
+
+## Resume Website
 Here is the code for resume website for hackers
 
 
