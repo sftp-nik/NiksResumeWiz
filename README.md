@@ -17,4 +17,4 @@ Steps to configure website using 000Webhost:
 6) And upload the website files
 7) And Preview you website
 8) ... here you go, your website is done
-9) 
+
